@@ -8,10 +8,15 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/back"
     tools:context="ulawalicka.birthdaycard.MainActivity">
 
     <TextView
+        android:id="@+id/hpybth"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Happy Birthday to you!" />
+        android:layout_centerHorizontal="true"
+        android:text="Happy Birthday to you!"
+        android:textSize="32sp"
+        android:paddingTop="24dp"/>
 </RelativeLayout>
